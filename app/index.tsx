@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-import { Link, router } from "expo-router";
-import { Pressable, ScrollView, StyleSheet, Text } from "react-native";
+import { Text, StyleSheet, ScrollView, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { Link, router } from "expo-router";
 
 
 export default function Index() {
@@ -69,37 +68,4 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 16,
   },
-=======
-import { Text, StyleSheet, ScrollView } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
-export default function Index() {
-  const name: string = "Balios Ross"
-  return (
-    <SafeAreaView
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <ScrollView>
-        <Text style={styles.Text1}>Welcome, {name}</Text>
-        <Text style={styles.Text2}>Hello World! Expo</Text>
-      </ScrollView>
-    </SafeAreaView>
-  );
-};
-
-const styles = StyleSheet.create({
-  Text1: {
-    color: 'red',
-    fontSize: 40
-  },
-  Text2: {
-    backgroundColor: 'red',
-    color: 'white',
-    fontSize: 50
-  }
->>>>>>> f3fe4c65c911f333e6335cdb491d7ee9e5cad761
 });
